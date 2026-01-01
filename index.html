@@ -2,163 +2,58 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>WishFunder — Creator Support Platform</title>
+  <title>WishFunder – Creator Support Platform</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="WishFunder is a global platform enabling fans to support creators through tips and donations. Payments are processed by licensed payment providers." />
   <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
-      background: #0f1115;
-      color: #eaeaf0;
-      line-height: 1.6;
-    }
-    a { color: #6da9ff; text-decoration: none; }
-    header {
-      padding: 48px 24px;
-      text-align: center;
-      background: linear-gradient(180deg, #161a22, #0f1115);
-    }
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 8px;
-    }
-    header p {
-      max-width: 720px;
-      margin: 0 auto 24px;
-      color: #b8bcc9;
-    }
-    section {
-      padding: 64px 24px;
-      max-width: 960px;
-      margin: 0 auto;
-    }
-    h2 {
-      margin-top: 0;
-      font-size: 2rem;
-      margin-bottom: 16px;
-    }
-    ul {
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    .card {
-      background: #161a22;
-      border-radius: 12px;
-      padding: 24px;
-      margin-bottom: 24px;
-    }
-    footer {
-      padding: 32px 24px;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #9aa0b4;
-      border-top: 1px solid #1f2430;
-    }
-    .legal {
-      white-space: pre-wrap;
-      font-size: 0.85rem;
-      color: #c7cbe0;
-    }
+    body { margin:0; font-family: Inter, Arial, sans-serif; background:#0f1220; color:#eaeaf0; }
+    a { color:#7aa2ff; text-decoration:none; }
+    header { padding:40px; max-width:1100px; margin:auto; }
+    section { padding:60px 40px; max-width:1100px; margin:auto; }
+    .hero h1 { font-size:48px; margin-bottom:16px; }
+    .hero p { font-size:18px; opacity:.85; max-width:600px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:24px; }
+    .card { background:#161a33; padding:24px; border-radius:12px; }
+    footer { padding:40px; text-align:center; opacity:.7; font-size:14px; }
+    .btn { display:inline-block; margin-top:24px; padding:12px 20px; background:#7aa2ff; color:#0f1220; border-radius:8px; font-weight:600; }
+    nav a { margin-right:20px; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>WishFunder</h1>
-  <p>
-    A global platform where fans support creators through tips and donations.
-    All payments are processed by licensed payment providers.
-  </p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="tos.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
 </header>
 
-<section>
-  <div class="card">
-    <h2>How It Works</h2>
-    <ul>
-      <li>Fans support creators using trusted third-party payment processors</li>
-      <li>WishFunder records contributions and platform fees</li>
-      <li>Creators may request payouts via supported methods</li>
-      <li>No card data is ever stored on WishFunder servers</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>Security & Compliance</h2>
-    <ul>
-      <li>PCI-compliant payment providers handle all card payments</li>
-      <li>Fraud monitoring and abuse prevention systems in place</li>
-      <li>No custody of user payment credentials</li>
-    </ul>
-  </div>
+<section class="hero">
+  <h1>WishFunder</h1>
+  <p>A global creator support platform where fans can tip creators using trusted payment processors.</p>
+  <a class="btn" href="mailto:contact@wishfunder.io">Contact</a>
 </section>
 
 <section>
-  <div class="card">
-    <h2>Draft Terms of Service</h2>
-    <div class="legal">
-Draft Terms of Service — WishFunder
-
-1. Overview  
-WishFunder is a digital platform that enables users to support creators through voluntary contributions ("tips"). WishFunder is not a bank, payment institution, or cryptocurrency exchange.
-
-2. Payments  
-All fiat payments are processed by third-party payment providers. WishFunder does not process or store payment card information.
-
-3. Payouts  
-Creators may request payouts through supported payout methods. WishFunder does not guarantee payout availability in all jurisdictions.
-
-4. User Responsibilities  
-Users are responsible for ensuring compliance with their local laws and regulations. Providing false information regarding residency or eligibility is prohibited.
-
-5. Prohibited Use  
-WishFunder may not be used for illegal activities, fraud, money laundering, or sanction evasion.
-
-6. Limitation of Liability  
-WishFunder provides services on an "as-is" basis and makes no warranties regarding uninterrupted availability.
-
-7. Changes  
-These Terms may be updated at any time. Continued use of the platform constitutes acceptance of the updated Terms.
+  <div class="grid">
+    <div class="card">
+      <h3>How It Works</h3>
+      <p>Fans support creators via licensed payment processors. WishFunder records contributions and allocates earnings.</p>
     </div>
-  </div>
-</section>
-
-<section>
-  <div class="card">
-    <h2>Draft Privacy Policy</h2>
-    <div class="legal">
-Draft Privacy Policy — WishFunder
-
-1. Data We Collect  
-We collect basic account information such as email address, username, and technical metadata (IP address, device information).
-
-2. Payment Data  
-All payment data is processed by third-party payment providers. WishFunder does not store card or bank details.
-
-3. Use of Data  
-Collected data is used solely to operate, secure, and improve the platform, prevent fraud, and comply with legal obligations.
-
-4. Data Sharing  
-We do not sell user data. Data may be shared with payment processors or service providers strictly as required to provide services.
-
-5. Data Retention  
-Data is retained only as long as necessary for operational or legal purposes.
-
-6. User Rights  
-Users may request access, correction, or deletion of their personal data, subject to legal limitations.
-
-7. Changes  
-This Privacy Policy may be updated periodically. Continued use of WishFunder constitutes acceptance of the updated policy.
+    <div class="card">
+      <h3>For Creators</h3>
+      <p>Creators manage income through a dashboard and request payouts using supported payout methods.</p>
+    </div>
+    <div class="card">
+      <h3>Security & Compliance</h3>
+      <p>No card data is stored on our servers. Payments are processed by PCI-compliant partners.</p>
     </div>
   </div>
 </section>
 
 <footer>
-  © 2026 WishFunder — wishfunder.io  
+  © 2026 WishFunder · <a href="tos.html">Terms</a> · <a href="privacy.html">Privacy</a>
 </footer>
 
 </body>
 </html>
-
