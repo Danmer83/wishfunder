@@ -1,100 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>WishFunder — Global Creator Support</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="WishFunder is a global platform where fans support creators through simple, secure donations.">
+  <meta charset="UTF-8" />
+  <title>WishFunder — Creator Support Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="WishFunder is a global platform that allows fans to support creators through tips and donations using trusted payment processors.">
+
   <style>
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: #0f1220;
+      color: #eaeaf0;
       line-height: 1.6;
     }
+    a { color: #7aa2ff; text-decoration: none; }
     header {
-      padding: 60px 20px;
+      padding: 80px 20px;
       text-align: center;
-      background: linear-gradient(135deg, #1e293b, #020617);
+      background: linear-gradient(135deg, #1a1f3c, #0f1220);
     }
-    h1 {
-      font-size: 3rem;
+    header h1 {
+      font-size: 48px;
       margin-bottom: 10px;
     }
-    h2 {
-      margin-top: 60px;
-      font-size: 2rem;
+    header p {
+      font-size: 18px;
+      opacity: 0.9;
+      max-width: 700px;
+      margin: 0 auto 30px;
     }
-    p {
-      max-width: 800px;
-      margin: 20px auto;
-      font-size: 1.1rem;
-      color: #cbd5f5;
+    .cta {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #7aa2ff;
+      color: #0f1220;
+      border-radius: 8px;
+      font-weight: 600;
     }
     section {
-      padding: 40px 20px;
-      text-align: center;
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    .steps {
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
-      max-width: 900px;
-      margin: 40px auto;
+      gap: 30px;
     }
     .card {
-      background: #020617;
+      background: #161a33;
+      padding: 25px;
       border-radius: 12px;
-      padding: 20px;
-      border: 1px solid #1e293b;
     }
     footer {
-      padding: 30px 20px;
+      padding: 40px 20px;
       text-align: center;
-      font-size: 0.9rem;
-      color: #94a3b8;
-      border-top: 1px solid #1e293b;
-    }
-    a {
-      color: #60a5fa;
-      text-decoration: none;
+      font-size: 14px;
+      opacity: 0.8;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>WishFunder</h1>
-  <p>Empowering creators with worldwide support through simple, secure donations.</p>
+  <p>
+    A global platform where fans support creators through tips and donations.
+    Payments are handled by licensed payment processors.
+  </p>
+  <a class="cta" href="mailto:contact@wishfunder.io">Contact</a>
 </header>
 
 <section>
-  <h2>About WishFunder</h2>
+  <h2>What is WishFunder?</h2>
   <p>
-    WishFunder is a global creator monetization platform that allows fans to support digital creators
-    via one-time or recurring donations. All payments are processed through licensed payment providers.
+    WishFunder helps digital creators monetize their audience through one-time
+    and recurring support. Fans make payments via trusted payment providers,
+    while creators manage their earnings through a simple dashboard.
   </p>
 </section>
 
 <section>
   <h2>How It Works</h2>
-  <div class="steps">
+  <div class="grid">
     <div class="card">
-      <h3>1. Fans Donate</h3>
-      <p>Supporters make payments using trusted global payment processors.</p>
+      <strong>1. Fan Support</strong>
+      <p>Fans tip creators using cards and local payment methods provided by licensed processors.</p>
     </div>
     <div class="card">
-      <h3>2. Platform Allocation</h3>
-      <p>WishFunder records donations and allocates creator earnings.</p>
+      <strong>2. Platform Accounting</strong>
+      <p>WishFunder records transactions and allocates creator balances.</p>
     </div>
     <div class="card">
-      <h3>3. Creator Payouts</h3>
-      <p>Creators request payouts via cryptocurrency or supported payout partners.</p>
+      <strong>3. Creator Payout Requests</strong>
+      <p>Creators request payouts based on available balance and supported regions.</p>
     </div>
     <div class="card">
-      <h3>4. Transparency</h3>
-      <p>Creators access a dashboard with earnings and payout history.</p>
+      <strong>4. Settlement</strong>
+      <p>Payouts are processed externally through supported payout rails.</p>
     </div>
   </div>
 </section>
@@ -102,21 +111,32 @@
 <section>
   <h2>Security & Compliance</h2>
   <p>
-    WishFunder does not store or process card data. All payments are handled by PCI-compliant
-    payment providers. The platform follows industry-standard security practices.
+    WishFunder does not store card data or process payments directly.
+    All payments are handled by PCI-compliant partners.
+  </p>
+  <p>
+    Creator features and payouts are available only in supported regions
+    and are subject to applicable regulations.
   </p>
 </section>
 
 <section>
-  <h2>Contact</h2>
+  <h2>For Payment Partners</h2>
   <p>
-    Business inquiries: <a href="mailto:contact@wishfunder.io">contact@wishfunder.io</a><br>
-    Terms of Service and Privacy Policy available upon request.
+    • Platform model: digital creator monetization<br/>
+    • Revenue: platform fee per transaction<br/>
+    • Payments: fully delegated to licensed processors<br/>
+    • No custody of customer card data
   </p>
 </section>
 
 <footer>
-  © 2025 WishFunder · wishfunder.io
+  <p>
+    © 2025 WishFunder ·
+    <a href="#">Terms of Service (Draft)</a> ·
+    <a href="#">Privacy Policy (Draft)</a>
+  </p>
+  <p>wishfunder.io</p>
 </footer>
 
 </body>
